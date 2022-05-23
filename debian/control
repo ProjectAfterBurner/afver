@@ -9,6 +9,6 @@ Homepage: https://github.com/ProjectAfterBurner/afver
 Package: afver
 Architecture: all
 Multi-Arch: foreign
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: bash
 Description: Afterburner Mod version number
  Stores the version number for project afterburner
