@@ -1,0 +1,14 @@
+Source: afver
+Section: utils
+Priority: optional
+Maintainer: Ryan Fortner <ryankfortner@gmail.com>
+Build-Depends: bash
+Standards-Version: 4.1.4
+Homepage: https://github.com/ProjectAfterBurner/afver
+
+Package: afver
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Afterburner Mod version number
+ Stores the version number for project afterburner
